@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Smart Fridge</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Manifest -->
+        <link rel="manifest" href="./manifest.webmanifest" crossorigin="use-credentials" />
+        <!-- Icons -->
+        <link rel="icon" type="image/png" href="./assets/appicons/favicon.ico" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Tô Ferrado" />
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/appicons/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/appicons/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/appicons/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/appicons/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/appicons/apple-icon-180x180.png" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/smartfridge.css" />
+        <link rel="stylesheet" href="css/tesi.css" />
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+        <!-- JS -->
+        <script src="js/tesi.js"></script>
+        <script src="js/smartfridge.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="headerBar primary">
+            <div class="center">
+                <img src="assets/logo.svg" alt="icone" width="50rem"/>
+                <span id="logo">Smart Fridge</span>
+            </div>
+        </header>
+
+        <!-- ######################################################## Home ######################################################## -->
+        <div id="home" class="component">
+            <!-- Notification -->
+            <div class="componentHeader">
+                <h3 class="center">Notificações</h3>
+            </div>
+
+            <div class="componentContent">
+
+                <!-- Cards -->
+                <div id="notificacao">
+                    <div class="blank">
+                        <p>Nenhum alimento esta vencendo.</p>
+                    </div>
+                    <div class="hidden listaAlimentosVencidos card-container"></div>
+                </div>
+
+                <!-- Buttons -->
+                <div id="botoes" class="mt1">
+                    <div class="buttonGroup mt1 center">
+                        <button id="btnCadastrar" class="button half primary">
+                            Cadastrar
+                        </button>
+                        <button id="btnListar" class="button half light">
+                            Listar Produtos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ######################################################## Cadastrar ######################################################## -->
+        <div id="cadastrar" class="component hidden">
+            <div class="componentHeader">
+                <h3 class="center">Cadastrar</h3>
+            </div>
+            <div class="componentContent">
+                <label for="inputNovoProduto">Nome do Produto:</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="inputNovoProduto" autocomplete="off">
+                </div>
+
+                <label for="inputDataVencimento">Data de Vencimento</label>
+                <div class="input-group mb-3">
+                    <input type="date" class="form-control" id="inputDataVencimento" autocomplete="off">
+                </div>
+
+                <div class="buttonGroup mt1 center">
+                    <button id="btnCanc1" class="button quarter light">Cancelar</button>
+                    <button id="btnInc" class="button quarter primary" disabled>Cadastrar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ######################################################## Lista ######################################################## -->
+        <div id="lista" class="component hidden">
+            <div class="componentHeader">
+                <h2 class="center">Lista de Produtos</h2>
+            </div>
+            <div class="componentContent">
+                <div id="blankLista">
+                    <p>Nenhum Produto Cadastrado</p>
+                </div>
+                <ul id="listaDeProdutos" class="list hidden"></ul>
+                <div class="buttonGroup mt1 center">
+                    <button id="btnVoltarHome" class="button half primary">Voltar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ######################################################## Mostra Produto ######################################################## -->
+        <div id="mostraProduto" class="component hidden">
+            <div class="componentHeader">
+                <h2 class="center">Mostra Produtos</h2>
+            </div>
+            <div class="componentContent">
+                <div id="voltarLista" class="mt1">
+                    <div>
+                        <h4>Nome do Produto:</h4>
+                        <p id="nomeProduto"></p>
+                        <h4>Data de Validade:</h4>
+                        <p id="dataValidade"></p>
+                    </div>
+
+                    <div class="buttonGroup mt1 center">
+                        <button id="btnVoltarLista" class="button half primary">Voltar</button>
+                        <button id="btnRetirar" class="button danger half">Retirar Produto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

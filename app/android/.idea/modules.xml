@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartFridge.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartFridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartFridge.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartFridge.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-356625773/SmartFridge.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-356625773/SmartFridge.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1694467363/SmartFridge.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1694467363/SmartFridge.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-451864422/SmartFridge.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-451864422/SmartFridge.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-692559777/SmartFridge.react-native-nfc-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/-692559777/SmartFridge.react-native-nfc-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740180802/SmartFridge.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1740180802/SmartFridge.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/201355907/SmartFridge.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/201355907/SmartFridge.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-359822757/SmartFridge.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-359822757/SmartFridge.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-31238788/SmartFridge.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-31238788/SmartFridge.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
