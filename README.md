@@ -1,4 +1,4 @@
-# Aplicação web progressiva
+# Aplicativo de Gestão de Alimentos
 
 ## Nome da Aplicação: 
 
@@ -33,3 +33,38 @@ Mostra o nome e a validade do produto cadastrado.
 ## Dados usados
 
 Como visto anteriormente, a aplicação usa apenas o nome e a validade de cada produto para ser cadastrado no mesmo.
+
+## Imagens do aplicativo
+
+![Cadastro](img/cadastro.png)
+![Lista-Home-Detalhes](img/lista-home-p.png)
+
+---
+
+## O que eu usei:
+
+- Wireframe:
+  - [Moqups](https://moqups.com/)
+
+- Protótipo:
+  - [Figma](https://www.figma.com/)
+
+- PWA (Progressive Web Application):
+  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+- Banco de Dados:
+  - [MongoDB](https://www.mongodb.com/)
+
+- Back-end:
+  - [Node.js](https://nodejs.org/en/)
+  - [Heroku](https://www.heroku.com/)
+
+- Testar Requisições:
+  - [Insomnia](https://insomnia.rest/)
+
+- Aplicativo:
+  - [React Native](https://reactnative.dev/)
+
+- RFID (Radio-Frequency IDentification)
